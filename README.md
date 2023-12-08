@@ -14,19 +14,12 @@
 ---
 
 ## 📖 Table of Contents
-- [📖 Table of Contents](#-table-of-contents)
-- [📍 Overview](#-overview)
 - [📦 Features](#-features)
-- [📂 repository Structure](#-repository-structure)
-- [⚙️ Modules](#modules)
+- [📂 Template Structure](#-template-structure)
 - [🚀 Getting Started](#-getting-started)
     - [🔧 Installation](#-installation)
-    - [🤖 Running userbot-template](#-running-userbot-template)
-    - [🧪 Tests](#-tests)
-- [🛣 Roadmap](#-roadmap)
+    - [🤖 Running userbot](#-running-userbot)
 - [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
-- [👏 Acknowledgments](#-acknowledgments)
 
 ---
 
@@ -37,7 +30,7 @@
 ---
 
 
-## 📂 Repository Structure
+## 📂 Template Structure
 
 ```sh
 └── userbot-template/
@@ -64,23 +57,26 @@ git clone https://github.com/shadowrezi/userbot-template
 cd userbot-template
 ```
 
-3. Install the dependencies:
+3. Create virualenv:
+```sh
+python -m venv venv
+```
+
+4. Connect to venv:
+```sh
+source venv/bin/activate
+```
+
+5. Install the dependencies:
 ```sh
 pip install -r requirements.txt
 ```
 
-### 🤖 Running userbot-template
+### 🤖 Running userbot
 
 ```sh
 python main.py
 ```
-
-### 🧪 Tests
-```sh
-pytest
-```
-
----
 
 ## 🤝 Contributing
 
@@ -118,21 +114,3 @@ Contributions are welcome! Here are several ways you can contribute:
 Once your PR is reviewed and approved, it will be merged into the main branch.
 
 </details>
-
----
-
-## 📄 License
-
-
-This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
-
----
-
-## 👏 Acknowledgments
-
-- List any resources, contributors, inspiration, etc. here.
-
-[**Return**](#Top)
-
----
-
