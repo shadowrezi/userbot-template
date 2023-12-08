@@ -57,12 +57,12 @@ git clone https://github.com/shadowrezi/userbot-template
 cd userbot-template
 ```
 
-3. Create virualenv:
+3. Create virualenv (optional):
 ```sh
 python -m venv venv
 ```
 
-4. Connect to venv:
+4. Connect to venv (if you do previous step):
 ```sh
 source venv/bin/activate
 ```
