@@ -2,7 +2,6 @@
 
 <div align="center">
     <h1>USERBOT-TEMPLATE</h1>
-    <h3>◦ ► INSERT-TEXT</h3>
     <h3>◦ Developed with the software and tools below.</h3>
 </div>
 
@@ -31,16 +30,9 @@
 
 ---
 
-
-## 📍 Overview
-
-► INSERT-TEXT
-
----
-
 ## 📦 Features
 
-► INSERT-TEXT
+► Just beauify template for userbot with pyrogram
 
 ---
 
@@ -49,61 +41,17 @@
 
 ```sh
 └── userbot-template/
-    ├── .env
     ├── misc/
     │   └── filters.py
     ├── plugins/
     │   └── commands.py
     ├── requirements.txt
-    └── userbot.py
+    ├── userbot.py
+    └── .env
 
 ```
 
----
-
-
-## ⚙️ Modules
-
-<details closed><summary>Root</summary>
-
-| File                                                                                          | Summary       |
-| ---                                                                                           | ---           |
-| [requirements.txt](https://github.com/shadowrezi/userbot-template/blob/main/requirements.txt) | ► INSERT-TEXT |
-| [userbot.py](https://github.com/shadowrezi/userbot-template/blob/main/userbot.py)             | ► INSERT-TEXT |
-| [.env](https://github.com/shadowrezi/userbot-template/blob/main/.env)                         | ► INSERT-TEXT |
-
-</details>
-
-<details closed><summary>Misc</summary>
-
-| File                                                                                   | Summary       |
-| ---                                                                                    | ---           |
-| [filters.py](https://github.com/shadowrezi/userbot-template/blob/main/misc/filters.py) | ► INSERT-TEXT |
-
-</details>
-
-<details closed><summary>Plugins</summary>
-
-| File                                                                                        | Summary       |
-| ---                                                                                         | ---           |
-| [commands.py](https://github.com/shadowrezi/userbot-template/blob/main/plugins/commands.py) | ► INSERT-TEXT |
-
-</details>
-
----
-
 ## 🚀 Getting Started
-
-***Dependencies***
-
-Please ensure you have the following dependencies installed on your system:
-
-`- ℹ️ Dependency 1`
-
-`- ℹ️ Dependency 2`
-
-`- ℹ️ ...`
-
 ### 🔧 Installation
 
 1. Clone the userbot-template repository:
@@ -131,16 +79,6 @@ python main.py
 ```sh
 pytest
 ```
-
----
-
-
-## 🛣 Project Roadmap
-
-> - [X] `ℹ️  Task 1: Implement X`
-> - [ ] `ℹ️  Task 2: Implement Y`
-> - [ ] `ℹ️ ...`
-
 
 ---
 
