@@ -15,7 +15,7 @@ from pyrogram.types import Message
 async def all_commands(_, message: Message):
     files = listdir("plugins/")
     py_files = [
-        file 
+        'plugins/' + file 
         for file in files
         if file.endswith('.py')
     ]
@@ -23,7 +23,7 @@ async def all_commands(_, message: Message):
     text = ''
 
     for i in py_files:
-        with open(f'plugins/{i}', 'r') as f:
+        with open(i, 'r') as f:
             text += f.read()
 
     pattern = re.compile(r'commands=\[[^]]*]')
