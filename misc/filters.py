@@ -7,7 +7,7 @@ def in_message(text: str):
         if message.text is None:
             return False
         return flt.text in message.text
-    return filters.create(filter, text=text)  # text=text, we get it by `flt`
+    return filters.create(filter, text=text)
 
 
 def startswith(target: str):
